@@ -1,11 +1,10 @@
-import Image from "next/image";
+import PasswordInput from "./components/PasswordInput";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Challenge</h1>
-      <Image src="/lock.svg" alt="Secure Login" width={50} height={50} />
-      <Image src="/eye.svg" alt="Secure Login" width={50} height={50} />
+    <div className="flex justify-center items-center flex-col pt-60">
+      <h1 className="m-4">Challenge #1</h1>
+      <PasswordInput />
     </div>
   );
 }
