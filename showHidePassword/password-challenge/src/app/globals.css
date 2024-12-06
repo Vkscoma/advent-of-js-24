@@ -70,3 +70,16 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.eye-cover-animation {
+  animation: eyeCover 1s forwards;
+}
+
+@keyframes eyeCover {
+  0% {
+    background-color: rgba(44, 178, 178, 1); /* Teal color */
+  }
+  100% {
+    background-color: rgba(0, 0, 255, 1); /* Blue color */
+  }
+}
